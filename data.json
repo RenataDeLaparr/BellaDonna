@@ -1,0 +1,1273 @@
+{
+  "intents": 
+  [
+    {
+      "tag": "Hello",
+      "input": 
+      [
+        "Hello","Hy","Hey","Guten Tag!","Hi", "Morgen", 
+    
+        "Ich möchte bestellen.","I want to order"
+        
+      ],
+      "responses": 
+      [
+        "Guten Tag! Tippen Sie ein, die Gerichte, die Sie gerne bestellen möchten."
+      ]
+    },
+    {
+      "tag": "hamburger_menu",
+      "input": 
+      [
+        "Was ist im Hamburger-Menü enthalten?",
+        "Was gehört zum Big Hamburger-Menü?",
+        "Was kann ich im Crispy Chicken Burger-Menü erwarten?",
+        "Zeige mir die Hamburger-Menüs",
+        "Was ist im Hamburger-Menü?",
+        "Details zum Hamburger-Menü",
+        "Inhalt des Big Hamburger-Menüs"
+      ],
+      "responses": 
+      [
+        "Unser Hamburger-Menü enthält einen Hamburger, Pommes frites und ein alkoholfreies Getränk 0,2l nach Wahl für 10,50 €.",
+        "Das Big Hamburger-Menü beinhaltet einen großen Hamburger, Pommes frites und ein alkoholfreies Getränk 0,2l nach Wahl für 11,50 €.",
+        "Im Crispy Chicken Burger-Menü findest du einen Crispy Chicken Burger, Pommes frites und ein alkoholfreies Getränk 0,2l nach Wahl für 9,50 €."
+      ]
+    },
+    {
+      "tag": "appetizers",
+      "input": 
+      [
+        "Was gibt es für Vorspeisen?",
+        "Zeige mir die Vorspeisen",
+        "Ich möchte die Vorspeisen sehen",
+        "Details zu den Vorspeisen",
+        "Was kann ich als Vorspeise bestellen?"
+      ],
+      "responses": 
+      [
+        "Hier sind unsere leckeren Vorspeisen: Bruschetta, Überbackener Mozzarella, Camembert Panato, Mozzarella Caprese, Chili con Carne und Funghi Ripieni."
+      ]
+    },
+    {
+      "tag": "salads",
+      "input": [
+        "Welche Salate gibt es?",
+        "Ich möchte einen Salat bestellen",
+        "Zeige mir die Salatkarte",
+        "Welche Salate könnt ihr empfehlen?",
+        "Habt ihr vegetarische Salate?"
+      ],
+      "responses": [
+        "Unsere leckeren Salate: Insalata Tonpeco, Insalata con Tonno, Insalata Pecorino, Insalata Mozzarella, Insalata Primavera, Insalata Pollo, Insalata Mista, Insalata di Cetrioli, Insalata Pomodori."
+      ]
+    },
+    {
+      "tag": "pizza",
+      "input": [
+        "Ich möchte eine Pizza bestellen",
+        "Welche Pizzen habt ihr?",
+        "Zeigt mir die Pizzakarte",
+        "Habt ihr vegetarische Pizza?",
+        "Ich hätte gerne eine Pizza mit Meeresfrüchten"
+      ],
+      "responses": [
+        "Wir haben eine große Auswahl an köstlichen Pizzen. Welche Größe hättest du gerne? Ø 28cm, Ø 32cm oder Family, Ø 50cm?"
+      ]
+    },
+    {
+      "tag": "pasta",
+      "input": [
+        "Ich möchte Pasta bestellen",
+        "Welche Pasta-Gerichte habt ihr?",
+        "Zeigt mir die Pastakarte",
+        "Habt ihr vegetarische Pasta?",
+        "Ich hätte gerne Pasta mit Scampi"
+      ],
+      "responses": [
+        "Wir bieten eine Vielzahl köstlicher Pasta-Gerichte an. Mit welcher Nudelsorte möchtest du deine Pasta genießen? Penne, Spaghetti, Tagliatelle oder Tortellini?"
+      ]
+    },
+    {
+      "tag": "gnocchi",
+      "input": [
+        "Ich möchte Gnocchi bestellen",
+        "Was für Gnocchi habt ihr?",
+        "Zeigt mir die Gnocchi-Karte",
+        "Habt ihr vegetarische Gnocchi?",
+        "Ich hätte gerne Gnocchi Rossini"
+      ],
+      "responses": [
+        "Wir haben eine Auswahl an köstlichen Gnocchi-Gerichten. Möchtest du Gnocchi Rossini, Gnocchi Marina oder Gnocchi Pollo?"
+      ]
+    },
+    {
+      "tag": "lasagne",
+      "input": [
+        "Ich möchte Lasagne bestellen",
+        "Was für Lasagne habt ihr?",
+        "Zeigt mir die Lasagne-Karte",
+        "Habt ihr vegetarische Lasagne?",
+        "Ich hätte gerne Lasagne Capri"
+      ],
+      "responses": [
+        "Wir haben köstliche Lasagne-Gerichte zur Auswahl. Möchten Sie Lasagne Capri, Lasagne al Forno oder Lasagne Pollo?"
+      ]
+    },
+    {
+      "tag": "broccoli_auflauf",
+      "input": [
+        "Ich möchte einen Broccoli-Auflauf bestellen",
+        "Was für Broccoli-Aufläufe habt ihr?",
+        "Zeigt mir die Broccoli-Aufläufe-Karte",
+        "Habt ihr vegetarische Broccoli-Aufläufe?",
+        "Ich hätte gerne Broccoli Rossini"
+      ],
+      "responses": [
+        "Wir bieten köstliche Broccoli-Aufläufe an. Möchten Sie Broccoli Siciliana, Broccoli Rossini, Broccoli Padella, Broccoli al Forno oder Broccoli Chef?"
+      ]
+    },
+    {
+      "tag": "risotto",
+      "input": [
+        "Ich möchte Risotto bestellen",
+        "Was für Risotto habt ihr?",
+        "Zeigt mir die Risotto-Karte",
+        "Habt ihr vegetarisches Risotto?",
+        "Ich hätte gerne Risotto Rossini"
+      ],
+      "responses": [
+        "Wir bieten verschiedene köstliche Risotto-Gerichte an. Möchten Sie Risotto Vegetaria, Risotto Rossini, Risotto Marinara oder Risotto Bolognese?"
+      ]
+    },
+    {
+      "tag": "geflügel_gerichte",
+      "input": [
+        "Ich möchte ein Geflügelgericht bestellen",
+        "Was für Geflügelgerichte habt ihr?",
+        "Zeigt mir die Geflügelgerichte-Karte",
+        "Habt ihr vegetarische Geflügelgerichte?",
+        "Ich hätte gerne Franco Cantarelli"
+      ],
+      "responses": [
+        "Wir haben köstliche Geflügelgerichte zur Auswahl. Möchten Sie Franco Cantarelli, Franco alla Griglia, Franco al Funghi, Franco al Gorgonzola oder Franco al Pepe?"
+      ]
+    },
+    {
+      "tag": "schweinefleisch_gerichte",
+      "input":[
+        "Ich möchte ein Fleischgericht vom Schwein bestellen",
+        "Was für Fleischgerichte vom Schwein habt ihr?",
+        "Zeigt mir die Fleischgerichte vom Schwein-Karte",
+        "Habt ihr vegetarische Fleischgerichte vom Schwein?",
+        "Ich hätte gerne Spinaci Rossini"
+      ],
+      "responses": [
+        "Wir haben eine Auswahl an köstlichen Fleischgerichten vom Schwein. Möchten Sie Spinaci Rossini, Cordon Bleu, Valentino Cantarelli, Scaloppine Cantarelli, Scaloppine al Funghi, Scaloppine Gorgonzola, Scaloppine al Pepe, Scaloppine Bolognese, Paniertes Schnitzel Wiener Art oder Scaloppine Pablo?"
+      ]
+    },
+    {
+      "tag": "geschnetzeltes",
+      "input": [
+        "Ich möchte ein Geschnetzeltes bestellen",
+        "Was für Geschnetzeltes habt ihr?",
+        "Zeigt mir die Geschnetzeltes-Karte",
+        "Habt ihr vegetarisches Geschnetzeltes?",
+        "Ich hätte gerne Pollo Tropico"
+      ],
+      "responses": [
+        "Wir haben verschiedene köstliche Geschnetzeltes-Gerichte zur Auswahl. Möchten Sie Pollo Tropico, Pollo Indio oder Franco Mexicana?"
+      ]
+    },
+    {
+      "tag": "türkische_spezialitäten",
+      "input": [
+        "Ich möchte eine türkische Spezialität bestellen",
+        "Was für türkische Spezialitäten habt ihr?",
+        "Zeigt mir die türkischen Spezialitäten-Karte",
+        "Ich hätte gerne Döner Teller"
+      ],
+      "responses": [
+        "Wir haben eine Auswahl an köstlichen türkischen Spezialitäten. Möchten Sie Döner Teller, Dürüm Döner, Döner, Lahmacun, Falafel Teller, Falafel im Brot, Sucuk, Halloumi, Döner Box, Hafa Teller oder Spezi Teller?"
+      ]
+    },
+    {
+      "tag": "frühstück_omelette",
+      "input": [
+        "Ich möchte ein Frühstück bestellen",
+        "Was für Frühstücksoptionen habt ihr?",
+        "Zeigt mir die Frühstückskarte",
+        "Habt ihr vegetarische Frühstücksoptionen?",
+        "Ich hätte gerne ein Bauernfrühstück"
+      ],
+      "responses": [
+        "Wir haben eine Auswahl an köstlichen Frühstücksoptionen. Möchten Sie ein Bauernfrühstück, Omelette Misto, Omelette Mozzarella, Omelette Broccoli oder Omelette Tonno?"
+      ]
+    },
+    {
+      "tag": "snacks",
+      "input": [
+        "Ich möchte einen Snack bestellen",
+        "Was für Snacks habt ihr?",
+        "Zeigt mir die Snackskarte",
+        "Ich hätte gerne Mozzarellasticks"
+      ],
+      "responses": [
+        "Wir haben eine Auswahl an köstlichen Snacks. Möchten Sie Mozzarellasticks, Chicken Wings, Chicken Nuggets, Chicken Box, Bella Big Burger, Big Crispy Burger oder Currywurst Menü?"
+      ]
+    },
+    {
+      "tag": "kindergerichte",
+      "input": [
+        "Ich möchte ein Kindergericht bestellen",
+        "Was für Kindergerichte habt ihr?",
+        "Zeigt mir die Kindergerichtskarte",
+        "Ich hätte gerne Penne Bambino Maccheroni"
+      ],
+      "responses": [
+        "Wir haben eine Auswahl an köstlichen Kindergerichten. Möchten Sie Penne Bambino Maccheroni, Spaghetti Bambino, Scaloppa Piccolo, Pizza Bambino oder Currywurst?"
+      ]
+    },
+    {
+      "tag": "beilagen_saucen_extras",
+      "input": [
+        "Ich hätte gerne Beilagen, Saucen oder Extras",
+        "Was für Beilagen, Saucen oder Extras habt ihr?",
+        "Zeigt mir die Beilagen, Saucen und Extras auf der Karte"
+      ],
+      "responses": [
+        "Hier sind unsere Beilagen, Saucen und Extras: Pommes frites (groß), Bratkartoffeln, Pommes frites, Kroketten, Onion Rings, Champignonsauce, Gorgonzolasauce, Kartoffelecken, Grüne Pfeffersauce, Extra Käse überbacken."
+      ]
+    },
+    {
+      "tag": "desserts",
+      "input": [
+        "Ich hätte gerne ein Dessert",
+        "Was für Desserts habt ihr?",
+        "Zeigt mir die Dessertkarte"
+      ],
+      "responses": [
+        "Hier sind unsere Desserts: Tiramisu (200g) - eine italienische Kuchenspezialität und Gelatelli Spaghetti-Eis (167g)."
+      ]
+    },
+    {
+      "tag": "alkoholfreie_getraenke",
+      "input": [
+        "Ich hätte gerne ein alkoholfreies Getränk",
+        "Was für alkoholfreie Getränke habt ihr?",
+        "Zeigt mir die Liste der alkoholfreien Getränke"
+      ],
+      "responses": [
+        "Hier sind unsere alkoholfreien Getränke: Coca-Cola 1,0l (MEHRWEG), Fanta Orange 1,0l (MEHRWEG), Sprite 1,0l (MEHRWEG), Spreequell Mineralwasser 1,0l, Wesergold Apfelsaft 1,0l, Wesergold Orangensaft 1,0l, Red Bull 0,25l, Club Mate 0,5l, Spezi 0,5l."
+      ]
+    },
+    {
+      "tag": "alkoholische_getraenke",
+      "input": [
+        "Ich hätte gerne ein alkoholisches Getränk",
+        "Was für alkoholische Getränke habt ihr?",
+        "Zeigt mir die Liste der alkoholischen Getränke"
+      ],
+      "responses": [
+        "Hier sind unsere alkoholischen Getränke: Berliner Kindl 0,5l, Beck's 0,5l, Lambrusco Villa Bonaga 0,75l, Soave Giulio Pasotti 0,75l, Chianti Riserva 0,75l, Tempranillo Rose 1,0l, Rachmaninoff Wodka 0,7l."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "input": [
+        "Auf Wiedersehen",
+        "Tschüss",
+        "Schönen Tag noch",
+        "Danke, auf Wiedersehen",
+        "Bis später"
+      ],
+      "responses": [
+        "Auf Wiedersehen! Danke, dass Sie uns gewählt haben.",
+        "Einen schönen Tag noch!",
+        "Wir hoffen, Sie bald wiederzusehen.",
+        "Schönen Tag! Bis zum nächsten Mal."
+      ]
+    }
+
+  ],
+
+
+
+
+
+
+
+
+
+
+
+
+  "entities": 
+  {
+
+    "hamburger_menus": 
+    [
+      {
+        "name": "Hamburger-Menü",
+        "components": ["1 Hamburger", "Pommes frites", "1 alkoholfreies Getränk 0,2l nach Wahl"],
+        "price": "10,50 €"
+      },
+      {
+        "name": "Big Hamburger-Menü",
+        "components": ["1 Big Hamburger", "Pommes frites", "1 alkoholfreies Getränk 0,2l nach Wahl"],
+        "price": "11,50 €"
+      },
+      {
+        "name": "Crispy Chicken Burger-Menü",
+        "components": ["1 Crispy Chicken Burger", "Pommes frites", "1 alkoholfreies Getränk 0,2l nach Wahl"],
+        "price": "9,50 €"
+      }
+    ],
+    "appetizers": 
+    [
+      {
+        "name": "Bruschetta",
+        "components": ["7 Stück"],
+        "price": "5,00 €"
+      },
+      {
+        "name": "Überbackener Mozzarella",
+        "components": ["8 Stück", "Mozzarella", "frische Tomaten", "Basilikum", "Brot"],
+        "price": "7,00 €"
+      },
+      {
+        "name": "Camembert Panato",
+        "components": ["gebacken", "Ananas", "Preiselbeeren"],
+        "price": "8,00 €"
+      },
+      {
+        "name": "Mozzarella Caprese",
+        "components": ["Mozzarella", "frische Tomaten", "Basilikum", "Olivenöl"],
+        "price": "8,00 €"
+      },
+      {
+        "name": "Chili con Carne",
+        "components": ["scharf", "rote Bohnen", "Rinderhackfleisch", "Tomatensauce"],
+        "price": "7,00 €"
+      },
+      {
+        "name": "Funghi Ripieni",
+        "components": ["frische Champignons", "Spinat", "Gorgonzola-Sahnesauce", "überbacken"],
+        "price": "10,00 €"
+      }
+    ],
+    "salads": 
+    [
+      {
+        "name": "Insalata Tonpeco",
+        "components": ["gemischter Salat", "Thunfisch", "Schafskäse"],
+        "price": "6,50 €",
+        "size_options": ["Klein", "Groß"]
+      },
+      {
+        "name": "Insalata con Tonno",
+        "components": ["gemischter Salat", "Thunfisch"],
+        "price": "6,50 €",
+        "size_options": ["Klein", "Groß"]
+      },
+      {
+        "name": "Insalata Pecorino",
+        "components": ["gemischter Salat", "Schafskäse"],
+        "price": "6,50 €",
+        "size_options": ["Klein", "Groß"]
+      },
+      {
+        "name": "Insalata Mozzarella",
+        "components": ["gemischter Salat", "Thunfisch", "Mozzarella"],
+        "price": "6,50 €",
+        "size_options": ["Klein", "Groß"]
+      },
+      {
+        "name": "Insalata Primavera",
+        "components": ["gemischter Salat", "Schinken", "Schafskäse"],
+        "price": "6,50 €",
+        "size_options": ["Klein", "Groß"]
+      },
+      {
+        "name": "Insalata Pollo",
+        "components": ["gemischter Salat", "Hähnchenbrust"],
+        "price": "6,50 €",
+        "size_options": ["Klein", "Groß"]
+      },
+      {
+        "name": "Insalata Mista",
+        "components": ["gemischter Salat"],
+        "price": "4,60 €",
+        "size_options": ["Klein", "Groß"]
+      },
+      {
+        "name": "Insalata di Cetrioli",
+        "components": ["kleiner Gurkensalat", "Zwiebeln"],
+        "price": "5,00 €",
+        "dressing_options": ["Balsamico-Dressing", "Kräuter-Dressing", "ohne Dressing"]
+      },
+      {
+        "name": "Insalata Pomodori",
+        "components": ["kleiner Tomatensalat", "Zwiebeln"],
+        "price": "5,00 €",
+        "dressing_options": ["Balsamico-Dressing", "Kräuter-Dressing", "ohne Dressing"]
+      }
+    ],
+    "pizza": 
+    [
+      {
+        "name": "Calzone",
+        "components": ["Peperoni", "Schinken", "Salami", "frische Champignons"],
+        "size_options": ["Ø 28cm", "Ø 32cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Scampi",
+        "components": ["Scampi", "Knoblauch", "Zitrone"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pizza Orientale",
+        "components": ["Knoblauchwurst", "Paprika", "Schafskäse"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pizza Vegetaria",
+        "components": ["frische Champignons", "Peperoni", "Broccoli", "Oliven", "Zwiebeln"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pizza Rucola",
+        "components": ["Rucola", "frische Tomaten", "Parmesan"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Calzone della Chef",
+        "components": ["Hähnchenbrust", "Spinat", "Paprika", "Zwiebeln"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Jalapenos",
+        "components": ["Rinderhackfleisch", "Zwiebeln", "Jalapenos"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Speziale",
+        "components": ["Broccoli", "Schinken", "Hähnchenbrust"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Artischocken",
+        "components": ["schwarze Oliven", "Artischocken"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Siciliana",
+        "components": ["schwarze Oliven", "Kapern", "Sardellen"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Funghi",
+        "components": ["Champignons"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Spinaci Verde",
+        "components": ["Spinat", "frische Tomaten", "Gorgonzola"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Marinara",
+        "components": ["Meeresfrüchte", "Knoblauch"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Pollo",
+        "components": ["Hähnchenbrustfilet", "Paprika", "Mais", "Sweet Chili"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Quattro Stagioni",
+        "components": ["frische Champignons", "Peperoni", "Kapern"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Zingara",
+        "components": ["Zwiebeln", "frische Champignons", "Paprika", "Peperoni", "Knoblauch"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Margherita",
+        "components": ["Tomatensauce", "Käse"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "8,50 €"
+      },
+      {
+        "name": "Pizza Salami",
+        "components": ["Salami"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Prosciutto",
+        "components": ["Schinken"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Mozzarella",
+        "components": ["frische Tomaten", "Oliven", "frischer Basilikum"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Hawaii",
+        "components": ["Schinken", "Ananas"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Pollo Curry",
+        "components": ["Ananas", "Curry", "gebratenes Hähnchenbrustfilet"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Quattro Formaggio",
+        "components": ["4 Käsesorten"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Italien",
+        "components": ["Salami", "Schinken", "frische Champignons", "Ei"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pizza Barbecue",
+        "components": ["Zwiebeln", "Hähnchenbrustfilet", "Mais", "Barbecuesauce"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pizza Pollo Hollandaise",
+        "components": ["Hähnchenbrustfilet", "Schinken", "Sauce Hollandaise"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pizza Hollandaise",
+        "components": ["Schinken", "Broccoli", "Sauce Hollandaise"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pizza Mista",
+        "components": ["Schinken", "Salami", "frische Champignons", "Peperoni"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Tonno",
+        "components": ["Thunfisch", "Zwiebeln"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pizza Primavera",
+        "components": ["Thunfisch", "Schafskäse", "Zwiebeln"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pizza Kebap",
+        "components": ["Dönerfleisch vom Kalb", "Zwiebeln", "Edamer"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pizza Parma",
+        "components": ["Rucola", "Parmaschinken", "Parmesan"],
+        "size_options": ["Ø 28cm", "Ø 32cm", "Family, Ø 50cm"],
+        "price": "11,00 €"
+      }
+      
+      
+      
+      
+      
+      
+    ],
+    "pasta":
+    [
+      {
+        "name": "Pasta Luigi",
+        "components": ["Hähnchenbrustfilet", "Champignons", "Broccoli", "Sahnesauce", "Käse"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pasta Broschi",
+        "components": ["Broccoli", "Schinken", "Sahnesauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Scampi",
+        "components": ["Scampi", "frischer Knoblauch", "Tomatensauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pasta Kebap",
+        "components": ["Dönerfleisch", "Champignons", "Broccoli", "Sahnesauce", "Käse"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pasta Siciliana (scharf)",
+        "components": ["Jalapenos", "Knoblauch", "Tomatensauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Bolognese",
+        "components": ["Fleischsauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "8,00 €"
+      },
+      {
+        "name": "Pasta Napoli",
+        "components": ["Tomatensauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "8,50 €"
+      },
+      {
+        "name": "Pasta Carbonara",
+        "components": ["Schinken", "Ei", "Sahnesauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Gorgonzola",
+        "components": ["Gorgonzola-Sahnesauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Marinara",
+        "components": ["Meeresfrüchten", "Knoblauch", "Tomatensauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pasta Pollo",
+        "components": ["Hähnchenbrustfilet", "Tomatensauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Vegetaria",
+        "components": ["Gemüse"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Nova",
+        "components": ["Hähnchenbrustfilet", "Ananas", "Curry-Sahnesauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Quattro Formaggio",
+        "components": ["4 Käsesorten", "Sahnesauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta al Forno",
+        "components": ["Schinken", "Champignon-Sahnesauce", "Käse"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pasta Pollo e Cipolle",
+        "components": ["Hähnchenbrustfilet", "Zwiebeln", "Paprika", "Tomaten-Sahnesauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Centre al Forno",
+        "components": ["Hähnchenbrust-Geschnetzeltem", "Broccoli", "Sahnesauce", "Käse"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pasta al Putanesca (scharf)",
+        "components": ["Thunfisch", "schwarzen Oliven", "scharfer Tomatensauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pasta Bella Rossini",
+        "components": ["Fleischspitzen vom Schwein", "Champignon-Sahnesauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Pasta Mista",
+        "components": ["verschiedenen Nudelsorten", "Fleischsauce", "Käse"],
+        "price": "10,00 €"
+      },
+      {
+        "name": "Spaghetti Aglio",
+        "components": ["frischem Knoblauch", "Oliven", "Petersilie", "frischen Tomaten"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Levo",
+        "components": ["Gorgonzola", "Zwiebeln", "Hähnchenbrustfilet"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Bella Donna",
+        "components": ["Champignons", "Zwiebeln", "Fleischsauce"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Pasta Artischocken",
+        "components": ["Champignons", "Artischocken"],
+        "noodle_options": ["Penne", "Spaghetti", "Tagliatelle", "Tortellini"],
+        "price": "9,00 €"
+      }
+    ],
+    "gnocchi": [
+      {
+        "name": "Gnocchi Rossini",
+        "components": ["Kartoffelnudeln", "Fleischspitzen", "Champignons", "Sahnesauce"],
+        "price": "10,50 €"
+      },
+      {
+        "name": "Gnocchi Marina",
+        "components": ["Kartoffelnudeln", "Meeresfrüchten", "Tomatensauce", "Knoblauch"],
+        "price": "10,50 €"
+      },
+      {
+        "name": "Gnocchi Pollo",
+        "components": ["Kartoffelnudeln", "Hähnchen", "Tomatensauce"],
+        "price": "10,50 €"
+      }
+    ],
+    "lasagne": [
+      {
+        "name": "Lasagne Capri",
+        "components": ["Broccoli", "Fleischsauce", "Käse"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Lasagne al Forno",
+        "components": ["nach Hausfrauenart"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Lasagne Pollo",
+        "components": ["Ananas", "Hähnchenbrustfilet", "Fleischsauce", "Käse"],
+        "price": "9,50 €"
+      }
+    ],
+    "broccoli_auflauf": 
+    [
+      {
+        "name": "Broccoli Siciliana",
+        "components": ["Schinken", "Schafskäse", "Sahnesauce"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Broccoli Rossini",
+        "components": ["Broccoli", "Fleischspitzen", "Sahnesauce"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Broccoli Padella",
+        "components": ["Broccoli", "Schinken", "Gorgonzola", "Sahnesauce"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Broccoli al Forno",
+        "components": ["Broccoli", "frische Tomaten", "Knoblauch", "Tomatensauce"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Broccoli Chef",
+        "components": ["Broccoli", "Dönerfleisch", "Sahnesauce"],
+        "price": "9,50 €"
+      }
+    ],
+    "risotto": 
+    [
+      {
+        "name": "Risotto Vegetaria",
+        "components": ["Broccoli", "Paprika", "Zwiebeln", "frische Champignons", "Tomatensauce"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Risotto Rossini",
+        "components": ["Fleischpitzen vom Schwein", "frische Champignons", "Sahnesauce"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Risotto Marinara",
+        "components": ["Meeresfrüchten", "Krabben", "Tomatensauce", "Knoblauch"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Risotto Bolognese",
+        "components": ["Fleischsauce"],
+        "price": "9,50 €"
+      }
+    ],
+    "geflügel_gerichte": [
+      {
+        "name": "Franco Cantarelli",
+        "components": ["Hähnchenbrustfilet", "Pfifferling-Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Franco alla Griglia",
+        "components": ["Hähnchenbrustfilet", "Kräuterbutter", "Remoulade"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Franco al Funghi",
+        "components": ["Hähnchenbrustfilet", "Champignon-Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Franco al Gorgonzola",
+        "components": ["Hähnchenbrustfilet", "Spinat", "Gorgonzola-Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Franco al Pepe",
+        "components": ["Hähnchenbrustfilet", "grünem Pfeffer", "Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      }
+    ],
+    "schweinefleisch_gerichte": [
+      {
+        "name": "Spinaci Rossini",
+        "components": ["Schweinefiletspitzen", "Spinat", "frische Tomaten", "Sahnesauce", "Käse"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "15,00 €"
+      },
+      {
+        "name": "Cordon Bleu",
+        "components": ["Schnitzel gefüllt mit Käse und Schinken"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Valentino Cantarelli",
+        "components": ["Schnitzel gefüllt mit Käse in Pfefferling-Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "15,00 €"
+      },
+      {
+        "name": "Scaloppine Cantarelli",
+        "components": ["Schweinemedaillons mit Pfifferling-Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Scaloppine al Funghi",
+        "components": ["Schweinemedaillons mit Champignon-Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Scaloppine Gorgonzola",
+        "components": ["Schweinemedaillons mit Gorgonzola-Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Scaloppine al Pepe",
+        "components": ["Schweinemedaillons mit grünem Pfeffer und Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Scaloppine Bolognese",
+        "components": ["paniertes Schnitzel mit Vorderschinken, Fleischsauce und Käse überbacken"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "15,00 €"
+      },
+      {
+        "name": "Paniertes Schnitzel Wiener Art",
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "13,00 €"
+      },
+      {
+        "name": "Scaloppine Pablo",
+        "components": ["Schweinemedaillons mit Artischocken und Sahnesauce"],
+        "side_options": ["mit Kroketten", "mit Pommes frites", "mit Spaghetti", "ohne Beilage"],
+        "price": "13,00 €"
+      }
+    ],
+    "geschnetzeltes": [
+      {
+        "name": "Pollo Tropico",
+        "components": ["Hähnchenfilet", "Mais", "Ananas", "Currysauce"],
+        "side_dish": "Reis",
+        "price": "14,00 €"
+      },
+      {
+        "name": "Pollo Indio",
+        "components": ["geschnetzeltes Hähnchenbrustfilet", "Zwiebeln", "Broccoli", "Champignons", "Knoblauch", "Curry-Sahnesauce"],
+        "side_dish": "Pommes frites",
+        "price": "14,00 €"
+      },
+      {
+        "name": "Franco Mexicana",
+        "components": ["Champignons", "Paprika", "Zwiebeln", "Mais", "Tomaten-Sahnesauce"],
+        "side_dish": "Pommes frites",
+        "price": "14,00 €"
+      }
+    ],
+    "türkische_spezialitäten": [
+      {
+        "name": "Döner Teller",
+        "components": ["Salat", "Pommes frites"],
+        "price": "11,00 €"
+      },
+      {
+        "name": "Dürüm Döner",
+        "components": ["Teigrolle", "Salat", "Dönerfleisch"],
+        "price": "7,00 €"
+      },
+      {
+        "name": "Döner",
+        "price": "6,00 €"
+      },
+      {
+        "name": "Lahmacun",
+        "components": ["türkische Pizza mit Dönerfleisch", "Salat"],
+        "price": "7,00 €"
+      },
+      {
+        "name": "Falafel Teller",
+        "components": ["Pommes frites", "Salat"],
+        "price": "10,50 €"
+      },
+      {
+        "name": "Falafel im Brot",
+        "components": ["frittierte Bratlinge aus Kichererbsen", "Salat", "Joghurtsauce"],
+        "price": "6,00 €"
+      },
+      {
+        "name": "Sucuk",
+        "components": ["Knoblauchwurst im Brot", "Salat", "Joghurtsauce"],
+        "price": "6,00 €"
+      },
+      {
+        "name": "Halloumi",
+        "components": ["Grillkäse aus Kuhmilch im Brot", "Salat", "Joghurtsauce"],
+        "price": "6,00 €"
+      },
+      {
+        "name": "Döner Box",
+        "components": ["Beilage", "Kräutersauce"],
+        "price": "6,00 €",
+        "size_options": ["Klein", "Groß"]
+      },
+      {
+        "name": "Hafa Teller",
+        "components": ["Falafel", "Halloumi", "Salat", "Pommes frites"],
+        "price": "10,50 €"
+      },
+      {
+        "name": "Spezi Teller",
+        "components": ["Dönerfleisch", "Pommes frites"],
+        "price": "10,50 €",
+        "sauce_options": ["mit Knoblauchsauce", "mit Kräutersauce", "scharf", "ohne Sauce"]
+      }
+    ],
+    "frühstück_omelette": [
+      {
+        "name": "Bauernfrühstück",
+        "components": ["Bratkartoffeln", "Schinken", "frische Champignons"],
+        "price": "9,00 €"
+      },
+      {
+        "name": "Omelette Misto",
+        "components": ["frische Champignons", "Schinken"],
+        "price": "8,50 €"
+      },
+      {
+        "name": "Omelette Mozzarella",
+        "price": "8,50 €"
+      },
+      {
+        "name": "Omelette Broccoli",
+        "price": "8,50 €"
+      },
+      {
+        "name": "Omelette Tonno",
+        "components": ["Thunfisch"],
+        "price": "8,50 €"
+      }
+    ],
+    "snacks": [
+      {
+        "name": "Mozzarellasticks",
+        "components": ["gefüllt mit Mozzarella", "Ananas", "Salat"],
+        "quantity": 6,
+        "price": "8,50 €"
+      },
+      {
+        "name": "Chicken Wings",
+        "quantity": 8,
+        "components": ["mit Barbecuesauce", "Pommes frites", "Salat"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Chicken Nuggets",
+        "quantity": 8,
+        "components": ["mit Barbecuesauce", "Pommes frites", "Salat"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Chicken Box",
+        "components": ["8 Chicken Wings", "8 Chicken Nuggets", "Barbecuesauce"],
+        "price": "14,00 €"
+      },
+      {
+        "name": "Bella Big Burger",
+        "components": ["mit 227g Rindfleisch", "sauren Gurken", "Tomaten", "Eisbergsalat", "Zwiebeln", "Snacksauce", "Pommes frites"],
+        "price": "9,50 €",
+        "options": ["mit Jalapenos", "mit Käse"]
+      },
+      {
+        "name": "Big Crispy Burger",
+        "components": ["mit 120g panierter Hähnchenbrust", "Pommes frites", "Salat"],
+        "price": "9,50 €"
+      },
+      {
+        "name": "Currywurst Menü",
+        "components": ["2 Geflügel-Currywurst", "Pommes frites", "1 alkoholfreies Getränk 0,2l nach Wahl"],
+        "price": "9,50 €",
+        "drink_options": ["Capri-Sun Orange 0,2l", "Coca-Cola 0,2l (MEHRWEG)", "Fanta Orange 0,2l (MEHRWEG)", "Sprite 0,2l (MEHRWEG)", "ohne Getränk"]
+      }
+    ],
+    "kindergerichte": [
+      {
+        "name": "Penne Bambino Maccheroni",
+        "components": ["mit Champignonsauce"],
+        "price": "7,00 €",
+        "drink": "Capri-Sun Orange 0,2l"
+      },
+      {
+        "name": "Spaghetti Bambino",
+        "components": ["mit einer Sauce nach Wahl"],
+        "price": "6,00 €",
+        "options": ["mit Fleischsauce", "mit Tomatensauce"],
+        "drink": "Capri-Sun Orange 0,2l"
+      },
+      {
+        "name": "Scaloppa Piccolo",
+        "components": ["kleines, paniertes Schnitzel", "Pommes frites"],
+        "price": "7,00 €",
+        "drink": "Capri-Sun Orange 0,2l"
+      },
+      {
+        "name": "Pizza Bambino",
+        "components": ["mit Tomatensauce", "Käse", "Salami"],
+        "size": "Ø 24cm",
+        "price": "6,00 €",
+        "drink": "Capri-Sun Orange 0,2l"
+      },
+      {
+        "name": "Currywurst",
+        "components": ["Geflügelwurst", "Pommes frites"],
+        "price": "7,00 €",
+        "drink": "Capri-Sun Orange 0,2l"
+      }
+    ],
+    "beilagen_saucen_extras": [
+      {
+        "name": "Pommes frites (groß)",
+        "price": "6,00 €"
+      },
+      {
+        "name": "Bratkartoffeln",
+        "components": ["mit Zwiebeln und Rosmarin"],
+        "price": "5,00 €"
+      },
+      {
+        "name": "Pommes frites",
+        "price": "3,50 €"
+      },
+      {
+        "name": "Kroketten",
+        "price": "3,50 €"
+      },
+      {
+        "name": "Onion Rings",
+        "quantity": 8,
+        "components": ["mit einem Dip nach Wahl"],
+        "price": "5,00 €",
+        "dip_options": ["mit Barbecue-Dip", "mit Dip, scharf", "mit Sour Cream", "ohne Dip"]
+      },
+      {
+        "name": "Champignonsauce",
+        "price": "5,00 €"
+      },
+      {
+        "name": "Gorgonzolasauce",
+        "price": "5,00 €"
+      },
+      {
+        "name": "Kartoffelecken",
+        "price": "4,00 €"
+      },
+      {
+        "name": "Grüne Pfeffersauce",
+        "price": "5,00 €"
+      },
+      {
+        "name": "Extra Käse überbacken",
+        "price": "2,50 €"
+      }
+    ],
+    "desserts": [
+      {
+        "name": "Tiramisu",
+        "quantity": "200g",
+        "description": "italienische Kuchenspezialität",
+        "price": "5,50 €"
+      },
+      {
+        "name": "Gelatelli Spaghetti-Eis",
+        "quantity": "167g",
+        "price": "3,00 €"
+      }
+    ],
+    "alkoholfreie_getraenke": [
+      {
+        "name": "Coca-Cola 1,0l (MEHRWEG)",
+        "price": "2,85 €",
+        "description": "Einzigartiger Geschmack, Erfrischung und Momente voller Lebensfreude.",
+        "additional_info": "Enthält Koffein (10,00 mg/100 ml)"
+      },
+      {
+        "name": "Fanta Orange 1,0l (MEHRWEG)",
+        "price": "2,85 €",
+        "description": "Spritzig erfrischend begleitet jede Lebenssituation und macht jetzt noch mehr Spaß."
+      },
+      {
+        "name": "Sprite 1,0l (MEHRWEG)",
+        "price": "2,85 €",
+        "description": "Die einzigartige Formel aus grünen Limetten und sonnengelben Zitronen erfrischt maximal."
+      },
+      {
+        "name": "Spreequell Mineralwasser 1,0l",
+        "price": "2,85 €"
+      },
+      {
+        "name": "Wesergold Apfelsaft 1,0l",
+        "price": "2,75 €",
+        "additional_info": "Enthält Pfand (0,25 €)"
+      },
+      {
+        "name": "Wesergold Orangensaft 1,0l",
+        "price": "2,75 €",
+        "additional_info": "Enthält Pfand (0,25 €)"
+      },
+      {
+        "name": "Red Bull 0,25l",
+        "price": "3,25 €",
+        "additional_info": "Enthält Koffein (32,00 mg/100 ml)"
+      },
+      {
+        "name": "Club Mate 0,5l",
+        "price": "2,35 €",
+        "additional_info": "Enthält Koffein (20,00 mg/100 ml)"
+      },
+      {
+        "name": "Spezi 0,5l",
+        "price": "2,35 €",
+        "additional_info": "Enthält Koffein (6,60 mg/100 ml)"
+      }
+    ],
+    "alkoholische_getraenke": 
+    [
+      {
+        "name": "Berliner Kindl 0,5l",
+        "price": "2,12 €",
+        "description": "Deutsche Biermarke",
+        "additional_info": "18+, 5,1% vol"
+      },
+      {
+        "name": "Beck's 0,5l",
+        "price": "2,42 €",
+        "description": "Deutsche Biermarke",
+        "additional_info": "18+, 4,9% vol"
+      },
+      {
+        "name": "Lambrusco Villa Bonaga 0,75l",
+        "price": "9,00 €",
+        "description": "Italienischer, süßer Rotwein",
+        "additional_info": "18+, 10,5% vol"
+      },
+      {
+        "name": "Soave Giulio Pasotti 0,75l",
+        "price": "9,00 €",
+        "description": "Italienischer, trockener Weißwein",
+        "additional_info": "18+, 12,5% vol"
+      },
+      {
+        "name": "Chianti Riserva 0,75l",
+        "price": "9,50 €",
+        "description": "Italienischer, trockener Rotwein",
+        "additional_info": "18+, 12,0% vol"
+      },
+      {
+        "name": "Tempranillo Rose 1,0l",
+        "price": "11,00 €",
+        "additional_info": "18+, 10,5% vol"
+      },
+      {
+        "name": "Rachmaninoff Wodka 0,7l",
+        "price": "13,00 €",
+        "additional_info": "18+, 37,5% vol"
+      }
+    ]
+
+
+
+
+  }
+}
